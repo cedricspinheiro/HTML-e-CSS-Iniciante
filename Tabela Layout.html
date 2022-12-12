@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="uft-8" />
+        <title>Tabela Layout</title>
+    </head>
+
+    <body style="font-size: 20px;">
+        <h1>Tabela Layout</h1>
+
+        <table cellspacing="10" cellpadding="10" border="1">
+            <tr>
+                <th colspan="2">Este e o cabecario do site</th>
+            </tr>
+
+            <tr>
+                <td width="200">
+                    <table cellspacing="5" cellpadding="5">
+                        <tr>
+                            <th>MENU DO SITE</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Home</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Sobre a empresa</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Contato</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Espaco para o conteudo do site, 
+                    aqui pode ter outras tabelas dentro
+                    das colunas e dentro de outra tabela
+                </td>
+
+                <tr>
+                    <td colspan="2">
+                        <table cellspacing="5" cellpadding="5" width="100%">
+                            <td width="25%" align="center">Python</td>
+                            <td width="25%" align="center">HTML</td>
+                            <td width="25%" align="center">CSS</td>
+                            <td width="25%" align="center">Django</td>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">Este e o rodape do site</th>
+                </tr>
+            </tr>
+        </table>
+    </body>
+</html>
