@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.row div {
+    background: brown;
+    height: 80px;
+    float: left;
+}
+/* linha 1*/
+.linha1 .coluna{
+    width: 100%;
+}
+
+/* linha 2*/
+.linha2 .coluna{
+    width: 48%;
+}
+.linha2 .coluna:last-child{
+    float: right;
+}
+
+/* linha 2*/
+.linha3 .coluna{
+    width: 30.66%;
+    margin-right: 4%;
+}
+.linha3 .coluna:last-child{
+    margin-right: 0;
+}
+
+/* linha 4*/
+.linha4 .coluna{
+    width: 22%;
+    margin-right: 4%;
+}
+.linha4 .coluna:last-child{
+    margin-right: 0;
+}
+
+/* linha 5*/
+.linha5 .coluna{
+    width: 16.8%;
+    margin-right: 4%;
+}
+.linha5 .coluna:last-child{
+    margin-right: 0;
+}
